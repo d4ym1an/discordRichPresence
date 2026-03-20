@@ -17,7 +17,7 @@ This project is a simple placeholder webpage for showing your Discord presence/p
 
 7. Replace `"YOUR_DISCORD_USER_ID_HERE"` with your real Discord user ID.
 8. Save the file and open `index.html` in your browser.
-9. Change files `discordAvatar.jpg` and `discordBanner.jpg` with your information (alongside with `profileDecoration.jpg` if you have one).
+9. Change files `discordAvatar.jpg` and `discordBanner.jpg` with your perfered images (alongside with `profileDecoration.jpg` if you have one).
 10. Modify the rest of the profile to your likings. Colors are in `discordCard.css`
 
 ## Notes
