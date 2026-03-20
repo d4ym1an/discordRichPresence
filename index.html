@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="discordCard.css">
+<body>
+    <div class="discord-mockup" id="discord-card">
+        <img class="discord-banner" src="discordBanner.jpg" alt="Discord banner">
+        <div class="discord-account">
+            <div class="discord-avatar-wrap">
+                <img class="discord-avatar" id="discord-avatar" src="/discordAvatar.jpg" alt="Discord avatar"
+                    width="56" height="56">
+                <!-- <img class="discord-decoration" id="discord-decoration" src="profileDecoration.jpg"
+                    alt="Avatar decoration" width="56" height="56" aria-hidden="true"> UNCOMMENT IF NECESSARY--> 
+            </div>
+            <div class="discord-account-text">
+                <strong id="discord-name">DISPLAY NAME</strong>
+                <span id="discord-handle">@USERNAME</span>
+            </div>
+            <span class="discord-dot offline" id="discord-dot" aria-hidden="true"></span>
+        </div>
+        <div class="discord-badges">
+            <span class="discord-pill" id="discord-status-label">Checking status...</span>
+            <span class="discord-pill subtle" id="discord-platform">Finding device...</span>
+        </div>
+        <div class="discord-bio-block">
+            <p class="discord-block-label">Bio</p>
+            <p class="discord-bio-text" id="discord-bio">ENTER YOUR BIO HERE</p>
+        </div>
+        <div class="discord-presence-block">
+            <p class="discord-block-label">Current Activities</p>
+            <div class="discord-activities-list" id="discord-activities-list">
+                <article class="discord-activity-item">
+                    <p class="discord-activity-title">Looking up your activities...</p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <script src="discordCard.js"></script>
+</body>
+
+</html>
